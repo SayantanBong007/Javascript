@@ -29,3 +29,14 @@ const obh={...obj1, ...obj2, ...obj3}
 //console.log(obj);
 console.log(obh);
 
+
+const course={
+    name:"kemon",
+    kakk:"jio"
+}
+
+console.log(course.kakk);
+const kakk="jio"
+
+const{kakk:ka}=course
+console.log(ka);
