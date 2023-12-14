@@ -9,10 +9,10 @@ const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentV
 console.log(sum); // Outputs: 15
 
 
-const numbers = [10, 4, 7, 19, 5, 14];
+const number = [10, 4, 7, 19, 5, 14];
 
 // Finding the maximum number using reduce()
-const maxNumber = numbers.reduce((max, current) => (current > max ? current : max), numbers[0]);
+const maxNumber = number.reduce((max, current) => (current > max ? current : max), numbers[0]);
 
 console.log(maxNumber); // Outputs: 19
 
